@@ -55,4 +55,10 @@ public class ManagementTest {
         assertEquals(100000000.00, manager.getSalary(), 0.01);
     }
 
+    @Test
+    public void testCanChangeEmployeeName() {
+        manager.changeEmployeeName("Jill");
+        assertEquals("Jill", manager.getName()); 
+    }
+
 }

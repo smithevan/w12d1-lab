@@ -30,5 +30,9 @@ public abstract class Employee {
 
     public abstract void raiseSalary(double salary);
 
+    public void changeEmployeeName(String newName) {
+        this.name = newName;
+    }
+
 
 }
