@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd57b483-947a-4f43-914f-245f73a0206d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/staff/management/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/management/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/management/Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/management/Management.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/staff/techStaff/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/Developer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DirectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ManagementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManagementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/staff/management/Management.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staff/management/Management.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/staff/techStaff/Developer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staff/techStaff/Developer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DeveloperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DeveloperTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ManagementTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/staff/management/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staff/management/Director.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DirectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DirectorTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,17 +59,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DirectorTest.testRaiseSalaryCannotBeNegeative">
+  <component name="RunManager" selected="JUnit.DirectorTest.testPayBonus">
     <configuration name="DatabaseAdminTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="w12d1-lab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DatabaseAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -91,6 +74,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
       <option name="METHOD_NAME" value="testRaiseSalaryCannotBeNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DirectorTest.testPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d1-lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="testPayBonus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DirectorTest.testPayBonus" />
         <item itemvalue="JUnit.DirectorTest.testRaiseSalaryCannotBeNegeative" />
         <item itemvalue="JUnit.DeveloperTest.testRaiseSalaryCannotBeNegative" />
         <item itemvalue="JUnit.ManagementTest.testRaiseSalaryCannotBeNegative" />
         <item itemvalue="JUnit.DatabaseAdminTest (1)" />
-        <item itemvalue="JUnit.DatabaseAdminTest" />
       </list>
     </recent_temporary>
   </component>
