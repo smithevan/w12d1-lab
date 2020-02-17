@@ -49,4 +49,10 @@ public class ManagementTest {
         assertEquals(100000001.00, manager.getSalary(), 0.01);
     }
 
+    @Test
+    public void testRaiseSalaryCannotBeNegative() {
+        manager.raiseSalary(-1.00);
+        assertEquals(100000000.00, manager.getSalary(), 0.01);
+    }
+
 }

@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd57b483-947a-4f43-914f-245f73a0206d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/staff/management/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/management/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/management/Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/management/Management.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/staff/techStaff/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DatabaseAdminTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DirectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DirectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManagementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManagementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/staff/management/Management.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staff/management/Management.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/staff/techStaff/Developer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/staff/techStaff/Developer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DeveloperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DeveloperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ManagementTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ManagementTest.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,54 +50,67 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.All in Inheritance Lab">
-    <configuration name="All in Inheritance Lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Inheritance Lab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DatabaseAdminTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Inheritance Lab" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DirectorTest.testRaiseSalaryCannotBeNegeative">
+    <configuration name="DatabaseAdminTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d1-lab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
-      <option name="METHOD_NAME" value="getName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Inheritance Lab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagementTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagementTest.testPayBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Inheritance Lab" />
+    <configuration name="DatabaseAdminTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagementTest" />
-      <option name="METHOD_NAME" value="testPayBonus" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseAdminTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeveloperTest.testRaiseSalaryCannotBeNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d1-lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeveloperTest" />
+      <option name="METHOD_NAME" value="testRaiseSalaryCannotBeNegative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagementTest.testRaiseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Inheritance Lab" />
+    <configuration name="DirectorTest.testRaiseSalaryCannotBeNegeative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d1-lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="testRaiseSalaryCannotBeNegeative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagementTest.testRaiseSalaryCannotBeNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d1-lab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ManagementTest" />
-      <option name="METHOD_NAME" value="testRaiseSalary" />
+      <option name="METHOD_NAME" value="testRaiseSalaryCannotBeNegative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Inheritance Lab" />
-        <item itemvalue="JUnit.DatabaseAdminTest.getName" />
-        <item itemvalue="JUnit.ManagementTest" />
-        <item itemvalue="JUnit.ManagementTest.testRaiseSalary" />
-        <item itemvalue="JUnit.ManagementTest.testPayBonus" />
+        <item itemvalue="JUnit.DirectorTest.testRaiseSalaryCannotBeNegeative" />
+        <item itemvalue="JUnit.DeveloperTest.testRaiseSalaryCannotBeNegative" />
+        <item itemvalue="JUnit.ManagementTest.testRaiseSalaryCannotBeNegative" />
+        <item itemvalue="JUnit.DatabaseAdminTest (1)" />
+        <item itemvalue="JUnit.DatabaseAdminTest" />
       </list>
     </recent_temporary>
   </component>
@@ -113,6 +138,19 @@
       <updated>1581948365011</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="340" y="85" width="1127" height="831" key="#Project_Structure" timestamp="1581955242793">

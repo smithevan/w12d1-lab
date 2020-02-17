@@ -9,7 +9,9 @@ public class DatabaseAdmin extends Employee {
     }
 
     public void raiseSalary(double increase) {
-        this.salary += increase;
+        if (increase >= 0) {
+            this.salary += increase;
+        }
     }
 
 }
